@@ -1,5 +1,11 @@
 # AI Changelog
 
+## v0.1.0 discipline reference and community license
+
+- Added a short framework discipline reference in `docs/ai-context/IA1STENGINE_DISCIPLINE.md`.
+- Recut the README and stack guide so the repo highlights the framework discipline as a research point for new contributors.
+- Made the MIT community license explicit in the public-facing docs.
+
 ## v0.1.0 discoverability and developer tooling
 
 - Added `npm run doctor` to report node/npm versions, stack version, env bootstrap status and upstream configuration.

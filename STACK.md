@@ -9,6 +9,17 @@ This repository is the default DataVisio IA-1stEngine SaaS base. It provides a m
 
 This stack is treated as a versioned product. A fork does not receive updates automatically when the base repository changes.
 
+## Framework discipline
+
+- IA-1stEngine is an engineering operating system, not just a prompt collection.
+- Treat `docs/ai-context/` as the persistent memory of the project.
+- Read the relevant `docs/specs/` and `docs/ai-skills/` before changing behavior.
+- Execute in small increments and validate every slice.
+- Use routed agents and specialized skills instead of improvised architecture.
+- Keep runtime governance, rollback and observability in the default path.
+- Record contract changes in `docs/ai-context/CHANGELOG_AI.md` and `docs/ai-context/DECISIONS.md`.
+- Use [docs/ai-context/IA1STENGINE_DISCIPLINE.md](docs/ai-context/IA1STENGINE_DISCIPLINE.md) as the short discipline reference.
+
 ## Technical stack
 
 - Next.js App Router
@@ -43,6 +54,7 @@ HM and PROD must remain isolated by compose project, runtime directory, secrets 
 - Migrations must be generated, reviewed and validated before production.
 - Browser validation must inspect the live runtime, not only source code.
 - New domain behavior must update specs, implementation plan, decisions or changelog when it changes operating contracts.
+- The community license is MIT and is intentionally open for reuse.
 
 ## Stack versioning
 

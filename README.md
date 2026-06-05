@@ -3,10 +3,13 @@
 [![CI](https://github.com/datavisio-tech/ia-firstengine-base-datavisio/actions/workflows/ci.yml/badge.svg)](https://github.com/datavisio-tech/ia-firstengine-base-datavisio/actions/workflows/ci.yml)
 [![Release Promotion](https://github.com/datavisio-tech/ia-firstengine-base-datavisio/actions/workflows/release-promotion.yml/badge.svg)](https://github.com/datavisio-tech/ia-firstengine-base-datavisio/actions/workflows/release-promotion.yml)
 [![Stack](https://img.shields.io/badge/stack-v0.1.0-blue)](STACK.md)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 Public SaaS starter template for DataVisio projects using IA-1stEngine governance.
 
-Start with STACK.md, then customize docs/specs/PROJECT_SPEC.spec.md before adding domain features.
+License: MIT, open for community and commercial use.
+
+Start with [STACK.md](STACK.md), then customize [docs/specs/PROJECT_SPEC.spec.md](docs/specs/PROJECT_SPEC.spec.md) before adding domain features.
 
 ## Versioned stack
 
@@ -23,6 +26,21 @@ To stay current:
 ## One-command setup
 
 Run `npm run setup` in a fresh fork to create a local `.env.local` from `.env.example` if it does not exist yet, then continue with the normal validation flow.
+
+## Framework Discipline
+
+IA-1stEngine is an engineering operating system, not a prompt pack.
+
+Read [docs/ai-context/IA1STENGINE_DISCIPLINE.md](docs/ai-context/IA1STENGINE_DISCIPLINE.md) for the short discipline reference.
+
+Core rules:
+
+1. Treat context as a first-class asset.
+2. Read `docs/ai-context/` and relevant `docs/specs/` before changing behavior.
+3. Work incrementally and validate each slice.
+4. Use routed agents and focused skills instead of improvised patterns.
+5. Update changelog, decisions and plan records when stack contracts change.
+6. Keep runtime governance, rollback and observability in the default path.
 
 ## Quick start
 

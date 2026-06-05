@@ -1,5 +1,7 @@
 # Decisions
 
+- v0.1.0: Make the framework discipline a first-class research point with a short reference doc linked from the README and stack guide.
+- v0.1.0: State the MIT community license explicitly in public-facing docs.
 - v0.1.0: Add a `doctor` command for first-fork diagnostics and a versioned release-notes workflow for tag-driven releases.
 - v0.1.0: Keep demo data optional and explicitly opt-in to avoid accidental writes during first runs.
 - v0.1.0: Add `npm run doctor` so fresh forks can inspect environment health, stack version and upstream setup in one command.
