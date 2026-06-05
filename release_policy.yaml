@@ -1,0 +1,5 @@
+release:
+  build_once_promote_many: true
+  production_requires_human_approval: true
+  smoke_tests_required: true
+  rollback_plan_required: true

@@ -1,0 +1,30 @@
+bootstrap:
+  name: IA-1stEngine Registry
+  version: 0.1.0
+  canonical_root: .github/agents/ia1st-engine
+  scan_scope:
+    - .github/agents/*.agent.md
+
+domains:
+  governance:
+    agents:
+      - id: governance
+        file: .github/agents/028-governance.agent.md
+        status: ready
+  implementation:
+    agents:
+      - id: saas-base
+        file: .github/agents/saas-base.agent.md
+        status: ready
+  operations:
+    agents:
+      - id: deployment
+        file: .github/agents/024-deployment.agent.md
+        status: ready
+
+policy_artifacts:
+  - artifact_registry.yaml
+  - governance_policy.yaml
+  - release_policy.yaml
+  - autopilot_policy.yaml
+  - prompt-routing-protocol.yaml

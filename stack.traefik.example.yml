@@ -1,0 +1,12 @@
+services:
+  app:
+    image: ${APP_IMAGE}
+    environment:
+      NODE_ENV: production
+      APP_URL: ${APP_URL}
+      NEXT_PUBLIC_APP_URL: ${NEXT_PUBLIC_APP_URL}
+    deploy:
+      labels:
+        - traefik.enable=true
+        - traefik.http.routers.${APP_ROUTER_NAME:-app}.rule=Host(`${APP_PUBLIC_HOST}`)
+        - traefik.http.services.${APP_SERVICE_NAME:-app}.loadbalancer.server.port=3000

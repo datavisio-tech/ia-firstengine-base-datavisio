@@ -1,0 +1,8 @@
+order:
+  - bootstrap
+  - discovery
+  - planning
+  - implementation
+  - validation
+  - operations
+  - governance

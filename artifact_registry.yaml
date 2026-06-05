@@ -1,0 +1,5 @@
+artifacts:
+  stack: STACK.md
+  agent_router: .agents/AGENT_ROUTER.md
+  operating_model: docs/ai-context/AI_OPERATING_MODEL.md
+  implementation_plan: docs/ai-context/IMPLEMENTATION_PLAN.md

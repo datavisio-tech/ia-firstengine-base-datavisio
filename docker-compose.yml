@@ -1,0 +1,12 @@
+services:
+  app:
+    build: .
+    image: ${APP_IMAGE:-ia-firstengine-base:local}
+    env_file:
+      - .env.local
+    ports:
+      - "3000:3000"
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.${COMPOSE_PROJECT_NAME:-ia-firstengine-base}.rule=Host(`${APP_PUBLIC_HOST:-app.example.com}`)"
+      - "traefik.http.services.${COMPOSE_PROJECT_NAME:-ia-firstengine-base}.loadbalancer.server.port=3000"

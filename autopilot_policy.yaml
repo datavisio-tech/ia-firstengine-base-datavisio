@@ -1,0 +1,9 @@
+autopilot:
+  allowed_for_dev: true
+  allowed_for_hm: true
+  allowed_for_prod: false
+  human_action_required_for:
+    - credentials
+    - business_decisions
+    - destructive_operations
+    - production_deploy

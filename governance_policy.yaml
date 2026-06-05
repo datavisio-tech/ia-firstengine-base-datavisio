@@ -1,0 +1,5 @@
+governance:
+  require_agent_routing: true
+  require_sources_consulted: true
+  require_validation: true
+  require_docs_update_for_contract_changes: true

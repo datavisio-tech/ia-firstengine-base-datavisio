@@ -1,0 +1,7 @@
+routing:
+  source: .agents/AGENT_ROUTER.md
+  mandatory_fields:
+    - STATUS
+    - AGENT
+    - SKILLS
+    - SOURCES CONSULTED
