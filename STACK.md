@@ -1,6 +1,6 @@
 # STACK.md - IA-1stEngine SaaS Base
 
-Stack version: `v0.1.0`
+Stack version: `v0.1.1`
 Template release: `bootstrap`
 
 ## Purpose
@@ -25,6 +25,7 @@ This stack is treated as a versioned product. A fork does not receive updates au
 - Next.js App Router
 - TypeScript strict
 - React
+- Tailwind CSS v4 with `@tailwindcss/postcss`
 - Better Auth as authentication adapter
 - Drizzle ORM with PostgreSQL
 - Vitest for unit and integration tests

@@ -1,5 +1,12 @@
 # AI Changelog
 
+## v0.1.1 Tailwind v4 PostCSS alignment
+
+- Migrated the default template to Tailwind CSS v4 with `@tailwindcss/postcss`.
+- Updated `app/globals.css` to import Tailwind via `@import "tailwindcss";`.
+- Removed the legacy `tailwind.config.ts` scaffold from the base template.
+- This keeps fresh forks on the supported Tailwind/PostCSS contract and avoids the old plugin mismatch.
+
 ## v0.1.0 discipline reference and community license
 
 - Added a short framework discipline reference in `docs/ai-context/IA1STENGINE_DISCIPLINE.md`.

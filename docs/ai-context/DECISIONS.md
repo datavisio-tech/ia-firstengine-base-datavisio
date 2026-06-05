@@ -1,5 +1,8 @@
 # Decisions
 
+- v0.1.1: The default stack template should use Tailwind CSS v4 with `@tailwindcss/postcss`.
+- v0.1.1: The default CSS entry should import Tailwind with `@import "tailwindcss";` instead of the v3 `@tailwind` directives.
+- v0.1.1: The legacy `tailwind.config.ts` scaffold is not part of the default template anymore.
 - v0.1.0: Make the framework discipline a first-class research point with a short reference doc linked from the README and stack guide.
 - v0.1.0: State the MIT community license explicitly in public-facing docs.
 - v0.1.0: Add a `doctor` command for first-fork diagnostics and a versioned release-notes workflow for tag-driven releases.
