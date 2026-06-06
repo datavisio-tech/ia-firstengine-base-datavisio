@@ -1,6 +1,6 @@
 # STACK.md - IA-1stEngine SaaS Base
 
-Stack version: `v0.1.5`
+Stack version: `v0.1.6`
 Template release: `bootstrap`
 
 ## Purpose
@@ -42,6 +42,7 @@ This stack is treated as a versioned product. A fork does not receive updates au
 - Traefik-compatible labels and examples
 - GitHub Actions for CI and release promotion
 - Development and start scripts bind explicitly to `0.0.0.0:3000` for reliable local access on Windows.
+- The default entry pages use a modern onboarding layout so new forks understand the stack immediately.
 
 ## Required workflow
 

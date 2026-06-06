@@ -1,5 +1,12 @@
 # AI Changelog
 
+## v0.1.6 frontend modernization
+
+- Refreshed the default `/` route into a clearer onboarding experience with stack status, next steps, useful documentation links and a secondary dashboard action.
+- Modernized the sign-in, subscription and dashboard entry pages so they match the same stack-first language and visual structure.
+- Updated the global layout and shared styles to give the fork a more usable first-run interface on localhost.
+- Allowed Next dev origins for `localhost` and `127.0.0.1` so browser validation can reach the local runtime consistently.
+
 ## v0.1.5 local runtime binding fix
 
 - Bound `npm run dev` and `npm run start` explicitly to `0.0.0.0:3000` so the fork is reachable from Windows localhost without relying on an IPv6-only listener.

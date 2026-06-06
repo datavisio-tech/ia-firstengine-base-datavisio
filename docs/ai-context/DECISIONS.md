@@ -1,5 +1,8 @@
 # Decisions
 
+- v0.1.6: The default entry pages should use a modern onboarding layout that makes the stack state and next steps obvious on first load.
+- v0.1.6: Sign-in, subscription and dashboard pages should share the same stack-first language and visual rhythm as the home onboarding screen.
+- v0.1.6: Next dev must allow `localhost` and `127.0.0.1` as dev origins so browser validation reaches the local runtime on Windows.
 - v0.1.5: The default dev and start scripts must bind to `0.0.0.0:3000` so the local fork is reachable on Windows without depending on an IPv6-only listener.
 - v0.1.5: The local healthcheck should default to `http://localhost:3000/api/health` to match the accessible runtime path.
 - v0.1.4: The default `/` route should act as a fork-installed onboarding screen that confirms the stack state and next steps after installation.
