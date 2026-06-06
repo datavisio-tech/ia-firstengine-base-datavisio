@@ -1,6 +1,6 @@
 # STACK.md - IA-1stEngine SaaS Base
 
-Stack version: `v0.1.1`
+Stack version: `v0.1.2`
 Template release: `bootstrap`
 
 ## Purpose

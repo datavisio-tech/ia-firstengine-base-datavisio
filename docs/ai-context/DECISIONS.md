@@ -1,5 +1,12 @@
 # Decisions
 
+- v0.1.2: The base template should expose the clone/open instructions directly in the README for users starting from VS Code.
+- v0.1.2: The quick start flow should be wrapped in `npm run stack:ia-firstengine` so a fresh fork can bootstrap and validate itself without guessing the command order.
+- v0.1.2: The quick start helper should end with an explicit `npm run dev` handoff for the first interactive run.
+- v0.1.1: The default TypeScript 6 toolchain should suppress the `baseUrl` deprecation warning with `ignoreDeprecations: "6.0"` so the bootstrap gate stays green.
+- v0.1.1: New users should be able to follow a visible clone/open recipe in the README without guessing the local repo structure.
+- v0.1.1: The base template should provide `npm run stack:ia-firstengine` as a one-command bootstrap helper that installs dependencies and validates the fresh fork, including the doctor gate.
+- v0.1.1: The quick start helper should stop after validation and leave `npm run dev` as the explicit next step.
 - v0.1.1: The default stack template should use Tailwind CSS v4 with `@tailwindcss/postcss`.
 - v0.1.1: The default CSS entry should import Tailwind with `@import "tailwindcss";` instead of the v3 `@tailwind` directives.
 - v0.1.1: The legacy `tailwind.config.ts` scaffold is not part of the default template anymore.

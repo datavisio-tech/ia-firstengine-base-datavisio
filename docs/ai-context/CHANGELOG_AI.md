@@ -1,5 +1,13 @@
 # AI Changelog
 
+## v0.1.2 quick start clone and bootstrap helper
+
+- Extended the README with a visible clone/open recipe for new users starting the stack in VS Code.
+- Added `npm run stack:ia-firstengine` as a single-command bootstrap that installs dependencies, runs setup, doctor, typecheck, tests and build.
+- The helper now ends with an explicit reminder to run `npm run dev`.
+
+## v0.1.1 TypeScript 6 deprecation alignment
+
 ## v0.1.1 Tailwind v4 PostCSS alignment
 
 - Migrated the default template to Tailwind CSS v4 with `@tailwindcss/postcss`.

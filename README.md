@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/datavisio-tech/ia-firstengine-base-datavisio/actions/workflows/ci.yml/badge.svg)](https://github.com/datavisio-tech/ia-firstengine-base-datavisio/actions/workflows/ci.yml)
 [![Release Promotion](https://github.com/datavisio-tech/ia-firstengine-base-datavisio/actions/workflows/release-promotion.yml/badge.svg)](https://github.com/datavisio-tech/ia-firstengine-base-datavisio/actions/workflows/release-promotion.yml)
-[![Stack](https://img.shields.io/badge/stack-v0.1.1-blue)](STACK.md)
+[![Stack](https://img.shields.io/badge/stack-v0.1.2-blue)](STACK.md)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 Public SaaS starter template for DataVisio projects using IA-1stEngine governance.
@@ -10,6 +10,19 @@ Public SaaS starter template for DataVisio projects using IA-1stEngine governanc
 License: MIT, open for community and commercial use.
 
 Start with [STACK.md](STACK.md), then customize [docs/specs/PROJECT_SPEC.spec.md](docs/specs/PROJECT_SPEC.spec.md) before adding domain features.
+
+## Clone and open
+
+In PowerShell, create a new project from the base repository:
+
+```powershell
+cd C:\Users\juciv\OneDrive\Devdatavisio\Saas
+git clone https://github.com/datavisio-tech/ia-firstengine-base-datavisio.git App-PGR-NR1
+cd App-PGR-NR1
+code .
+```
+
+Open the folder in VS Code, then use the terminal integrated in the editor.
 
 ## Versioned stack
 
@@ -44,12 +57,19 @@ Core rules:
 
 ## Quick start
 
-1. `npm install`
-2. `npm run setup`
-3. `npm run typecheck`
-4. `npm run test`
-5. `npm run build`
-6. `npm run dev`
+Run the full bootstrap and validation sequence with a single command:
+
+```powershell
+npm run stack:ia-firstengine
+```
+
+This runs `npm install`, `npm run setup`, `npm run doctor`, `npm run typecheck`, `npm run test` and `npm run build` in order.
+
+Then start development mode:
+
+```powershell
+npm run dev
+```
 
 ## Upgrade helper
 
